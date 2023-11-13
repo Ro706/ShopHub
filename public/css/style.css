@@ -7,7 +7,6 @@ body{
     position: relative;
     align-items: center;
     justify-content: center;
-    font-size: 40px;
     color:white;
 }
 .img{
@@ -54,10 +53,14 @@ table td a{
         font-size: 20px;
         color: white;
     }
+    .table_img{
+        width: 50px;
+        height: 50px;
+    }
     .img{
         width: 100px;
         height: 100px; 
-        padding-left: 70px;
+        padding-left: 50px;
         padding-top: 10px;
     }
     .item{
@@ -68,23 +71,22 @@ table td a{
     font-size: 34px;
     width: auto;
     float: right;
-    padding-top: 60px;
-    padding-right: 100px;
+    padding-right: 90px;
+    padding-top: 50px;
     color: white;
     margin:0px;
     text-decoration: underline;
     }
 
     table{
-        max-width :90%;
-        padding-right: 30px;
-        padding-left: 0px;
+        width :100%;
         font-size: 20px;
     }
 
     table td{
-        border: 2px solid white;
+        border: 1px solid white;
         padding-top: 30px;
+        font-size: 25px;
     }
 
     table td a{
