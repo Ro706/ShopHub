@@ -9,6 +9,7 @@ body{
     justify-content: center;
     color:white;
 }
+
 .img{
     width: 160px;
     height: 160px;
@@ -29,18 +30,22 @@ body{
     margin-top: 60px;
     text-decoration: underline;
 }
+
 table{
     padding: 30px;
 }
+
 table td{
     border: 2px solid white;
     padding: 10px;
 }
+
 table td a{
     color: white;
     text-decoration: none;
 }
-@media screen and (max-width: 800px) {
+/* For mobile */
+@media screen and (max-width: 786px) {
     body{
         background-color: #D9A43D;
         padding: 0px;
